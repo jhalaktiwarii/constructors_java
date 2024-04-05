@@ -1,0 +1,15 @@
+
+//Basics of Constructors in Java
+#Definition:
+A constructor is a special member method called by JVM implicitly (automatically) for initializing member variables of class with user/programmer defined values or default values.
+
+#types of constructor-
+1) Default Constructor. - a. Zero argument constructor.
+2) User defined Constructor -a. zero argument constructor b. parameterized constructor
+
+#basic properties-
+Constructor does not return any value, so does not have any return type, not even void.
+If programmer does not providing any constructor in the class then compiler provides default constructor at the time of compilation.It is always zero argument constructors with empty implementation.
+When we want initialise all the variables of a class with the same values each time an instance is created, then default constructor is explicitly defined in the class.
+Constructor Overloading can be done by writing more than one constructor in the same class. Constructor name is same but signature are different. Signature represents number of parameters, type of parameters and order of parameters. At least one thing must be differentiated.
+
